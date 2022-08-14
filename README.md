@@ -2,7 +2,7 @@
 
 - The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers built with Pytorch.
 - Customization for your own use case is super easy. Just need to modify `intents.json` with possible patterns and responses and re-run the training.
-- It can handel questions and sentences that was not mentioned in intents.json file.
+- It can handle questions and sentences that were not mentioned in the intents.json file.
 
 ## Example of the output:
 
