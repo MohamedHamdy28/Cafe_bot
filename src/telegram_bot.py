@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-API_KEY = "5573597059:AAGQ5JNvW0wvH_AeVh_mS3PVe9RXiLs8Sbs"
+API_KEY = #Your API Key goes here 
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler()
