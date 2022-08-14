@@ -5,7 +5,7 @@ import telebot
 import json
 import torch
 from model import NeuralNet
-from nltk_utlis import bag_of_words, tokenize
+from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-API_KEY = # Your API goes here
+API_KEY = "5573597059:AAGQ5JNvW0wvH_AeVh_mS3PVe9RXiLs8Sbs"
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler()
