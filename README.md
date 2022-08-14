@@ -1,14 +1,18 @@
-# Implementation of a Contextual Chatbot in PyTorch.  
-Simple chatbot implementation with PyTorch. 
+# A simple Telegram bot that uses NLP. 
 
-- The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
-- The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
-- Customization for your own use case is super easy. Just modify `intents.json` with possible patterns and responses and re-run the training (see below for more info).
+- The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers built with Pytorch.
+- Customization for your own use case is super easy. Just need to modify `intents.json` with possible patterns and responses and re-run the training.
+- It can handel questions and sentences that was not mentioned in intents.json file.
+
+## Example of the output:
+
+
+![image](https://user-images.githubusercontent.com/71794972/184543398-f60bac05-b5b5-4ef5-88e8-317eea25e74c.png)
+
 
 The approach is inspired by this article and ported to PyTorch: [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077).
 
-## Watch the Tutorial
-[![Alt text](https://img.youtube.com/vi/RpWeNzfSUHw/hqdefault.jpg)](https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg)
+
 
 ## Installation
 
